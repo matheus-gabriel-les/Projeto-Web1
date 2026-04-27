@@ -1,3 +1,4 @@
+Projeto desenvolvido em colaboração com erosa-dev
 Jogo de Digitação – Desenvolvimento Web I (TADS/UFPR)
 Este projeto é um jogo de digitação de frases desenvolvido para a disciplina Desenvolvimento Web I do curso de Tecnologia em Análise e Desenvolvimento de Sistemas (TADS) da UFPR. O objetivo do jogo é medir a velocidade de digitação do usuário com base em frases exibidas na tela.
 
