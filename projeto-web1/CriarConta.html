@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="Site.css" >
+    <script src="Arquivo.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="form">
+        <form action="processaDados.php" method="post" onsubmit="verificarDados(event)" class="formulario">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <span class="error" id="nomeError"></span>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Digite um email valido!" required>
+            <span class="error" id="emailError"></span>
+    
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha" required>
+            <span class="error" id="senhaError"></span>
+
+            <label for="senha">Digite a senha novamente</label>
+            <input type="password" id="confirmar" name="confirmar" required>
+            <span class="error" id="confirmarError"></span>
+
+            <div style="display: flex; justify-content: space-between;">
+                <button type="submit" value="Enviar">Enviar</button>
+                <button type="reset" value="Limpar">Limpar</button>   
+            </div>
+        </form>  
+      
+    </div>
+</body>
+</html>
