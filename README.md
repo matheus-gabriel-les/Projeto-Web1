@@ -1,43 +1,63 @@
-Projeto desenvolvido em colaboração com erosa-dev
+Project developed in collaboration with erosa-dev
 
+Typing Game – Web Development I (TADS/UFPR)
+This project is a sentence typing game developed for the Web Development I course in the Technology in Systems Analysis and Development (TADS) program at UFPR. The goal of the game is to measure the user's typing speed based on sentences displayed on the screen.
 
-Jogo de Digitação – Desenvolvimento Web I (TADS/UFPR)
-Este projeto é um jogo de digitação de frases desenvolvido para a disciplina Desenvolvimento Web I do curso de Tecnologia em Análise e Desenvolvimento de Sistemas (TADS) da UFPR. O objetivo do jogo é medir a velocidade de digitação do usuário com base em frases exibidas na tela.
+📝 Features
+Automatic display of sentences for typing.
 
-📝 Funcionalidades
-Exibição automática de frases para digitação.
-Leitura das frases a partir de um arquivo externo (palavras.json) via PHP.
-Verificação da digitação em tempo real com JavaScript.
-Interface construída com HTML e CSS.
-Feedback visual durante a digitação (acertos e erros).
-Registro do tempo gasto para completar a frase.
-🚀 Tecnologias Utilizadas
-HTML5 – estrutura da interface
-CSS3 – layout e estilização
-JavaScript – lógica do jogo e interação com o usuário
-PHP – leitura das frases e comunicação com o frontend
-JSON - Dados NoSQL
-MySQL - Banco de dados SQL
+Reading sentences from an external file (palavras.json) via PHP.
 
+Real-time typing verification with JavaScript.
 
-▶️ Como Executar
-Coloque todos os arquivos em um servidor local (Apache, XAMPP, WAMP ou similar).
-Certifique-se de que o PHP está ativado.
-Acesse pelo navegador:
-http://localhost/AbaSite.html/
-O jogo carregará a tela de cadastro/login
-📄 Como Funciona
-Ao carregar a página, o JavaScript solicita ao PHP uma lista de frases.
-O PHP lê o arquivo palavras.JSON e retorna as frases.
-A frase escolhida aparece na tela.
-O usuário digita no campo indicado e o sistema compara letra por letra.
-Quando a frase termina, o total de acertos é exibido.
-👨‍🏫 Projeto Acadêmico
-Este repositório faz parte das atividades da disciplina Desenvolvimento Web I, com foco em:
+Interface built with HTML and CSS.
 
-uso básico de PHP para leitura de arquivos
-manipulação de DOM com JavaScript
-organização de páginas HTML
-práticas iniciais de usabilidade e layout
+Visual feedback during typing (correct and incorrect keystrokes).
 
-Versão 7.0.1-Alpha
+Recording of the time spent to complete the sentence.
+
+🚀 Technologies Used
+HTML5 – interface structure
+
+CSS3 – layout and styling
+
+JavaScript – game logic and user interaction
+
+PHP – reading sentences and communication with the frontend
+
+JSON - NoSQL Data
+
+MySQL - SQL Database
+
+▶️ How to Run
+Place all files on a local server (Apache, XAMPP, WAMP, or similar).
+
+Ensure that PHP is enabled.
+
+Access via your browser: http://localhost/AbaSite.html/
+
+The game will load the registration/login screen.
+
+📄 How it Works
+Upon loading the page, JavaScript requests a list of sentences from PHP.
+
+PHP reads the palavras.json file and returns the sentences.
+
+The chosen sentence appears on the screen.
+
+The user types in the indicated field, and the system compares it letter by letter.
+
+When the sentence is completed, the total number of correct keystrokes is displayed.
+
+👨‍🏫 Academic Project
+This repository is part of the activities for the Web Development I course, focusing on:
+
+Basic use of PHP for reading files
+
+DOM manipulation with JavaScript
+
+HTML page organization
+
+Initial usability and layout practices
+
+Version 7.0.1-Alpha
