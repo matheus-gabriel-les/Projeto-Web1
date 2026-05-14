@@ -6,7 +6,7 @@ This project is a sentence typing game developed for the Web Development I cours
 📝 Features
 Automatic display of sentences for typing.
 
-Reading sentences from an external file (palavras.json) via PHP.
+Reading sentences from an external file (palavras.json) with PHP.
 
 Real-time typing verification with JavaScript.
 
